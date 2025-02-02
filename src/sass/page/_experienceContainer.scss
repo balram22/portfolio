@@ -1,0 +1,211 @@
+.skill-tile {
+    //background-color: $color-experience-dark;
+    padding-block: 4rem;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    justify-items: center;
+    background-color: $color-pink;
+    opacity: 0;
+    animation: animateTile $animation-step-time ease-out;
+
+    &:hover .back-btn-hidden {
+        visibility: visible;
+    }
+
+    &--fade-out {
+        animation: animateTileOut $animation-step-time ease-out;
+    }
+
+    h3 {
+        margin-block-end: 2rem;
+    }
+}
+
+.experience-tile {
+    //background-color: $color-experience-light;
+    padding-block: 4rem;
+    display: block;
+    background-color: $color-green-light-1;
+    opacity: 0;
+    animation: animateTile $animation-step-time ease-out .20s;
+
+    &:hover .back-btn-hidden {
+        visibility: visible;
+    }
+
+    &--fade-out {
+        animation: animateTileOut $animation-step-time ease-out .20s;
+    }
+
+    h3 {
+        margin-block-end: 2rem;
+    }
+}
+
+.skill {
+    &__body {
+        width: fit-content;
+        overflow: auto;
+        padding-inline: 4rem;
+
+        &::-webkit-scrollbar {
+            width: .5rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: rgba($color-pink,1);
+        }
+        &::-webkit-scrollbar-thumb {
+            background: $color-pink-light;
+        }
+    }
+
+    &__item {
+        display: grid;
+        margin: 2rem auto;
+        grid-template-columns: 8rem 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+
+    &__section {
+        background-color: $color-pink-light;
+        border-radius: 4rem;
+        padding: 1rem 4rem;
+        padding-top: 2.5rem;
+        position: relative;
+
+        &--title {
+            position: absolute;
+            top: 1rem;
+            left: 4.5rem;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        &:not(:last-child) {
+            margin-block-end: 2rem;
+        }
+    }
+
+    &__rating {
+        background-color: $color-green-light-1;
+        height: 5px;
+        border-radius: 3px;
+        width: 100%;
+        justify-self: left;
+
+        &--75 {
+            width: 75%;
+        }
+
+        &--85 {
+            width: 85%;
+        }
+
+        &--60 {
+            width: 60%;
+        }
+    }
+}
+
+.experience {
+    &__body {
+        margin-inline: auto;
+        padding-inline: 4rem;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+        height: calc(100% - 5rem);
+
+        &::-webkit-scrollbar {
+            width: .5rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: rgba($color-green-light-1,1);
+        }
+        &::-webkit-scrollbar-thumb {
+            background: rgba(#fff,0.54);;
+        }
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: min(70rem, 90vw);
+        padding: 2rem 1.5rem;
+        border-radius: 4rem;
+        background-color: rgba(#fff,0.54);
+        transition: background-color .2s ease;
+
+        &:hover {
+            background-color: rgba($color-green-dark-1,0.2)
+        }
+    }
+
+    &__devider {
+        grid-column: 1/3;
+        border: .5px solid $color-pink;
+    }
+
+    &__company-logo {
+        height: 2rem;
+    }
+
+    &__summary {
+        max-width: min(60rem, 90vw);
+        grid-column: 1/3;
+        overflow-y: auto;
+        justify-self: center;
+        transition: all 1s ease;
+        padding-block: 1.5rem;
+        
+        &__container {
+            width: 100%;
+            background-color: rgba(#fff,0.54);
+            margin-top: 2px;
+            border-radius: 0 0 4rem 4rem;
+        }
+
+        &::-webkit-scrollbar {
+            width: .5rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: rgba($color-green-light-1,1);
+        }
+        &::-webkit-scrollbar-thumb {
+            background: $color-green-light-2;
+        }
+
+        &--nested {
+            margin-left: 4rem;
+        }
+
+        li {
+            list-style: none;
+            position: relative;
+            margin-left: 1rem;
+            &::before {
+                content: '';
+                position: absolute;
+                height: 5px;
+                width: 5px;
+                top:1rem;
+                left: -1rem;
+                z-index: 100;
+                background-color: $color-pink;
+                border-radius: 50%;
+                filter: contrast(.5);
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: 6rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
+
+    &--orange {
+        color: $color-orange-dark-2;
+    }
+
+    &--green {
+        color: $color-green-dark-2;
+    }
+}
+
+.h3 {
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: .8;
+    text-align: center;
+
+    &--pink-dark {
+        color: $color-pink-dark;
+    }
+
+    &--green-dark-2 {
+        color: $color-green-dark-2;
+    }
+}
+
+.details {
+    font-size: 1.5rem;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 1.9rem;
+      }
+}

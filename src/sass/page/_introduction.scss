@@ -1,0 +1,53 @@
+.intro {
+    display: grid;
+    border: solid;
+    border-color: $color-grey-dark-2;
+    grid-template-rows: 1fr min-content;
+    align-items: center;
+    padding: 3rem;
+    background-image: linear-gradient(to bottom right, $color-grey-light-1, $color-grey-light-2);
+    opacity: 0;
+    animation: animateTile $animation-step-time ease-out;
+
+    &--fade-out {
+        animation: animateTileOut $animation-step-time ease-out;
+    }
+
+    &__email {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: $color-grey-light-2;
+            z-index: -1;
+            border-radius: 3rem;
+            transform: scale(0);
+            opacity: 60%;
+            transition: transform .2s, background-color .2s;
+        }
+
+        &:hover::before {
+            transform: scaleX(1.2) scaleY(1);
+            background-color: var(--primary-grey);
+        }
+    }
+
+    &__text {
+        font-size: 3rem;
+        font-weight: 300;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__contact {
+        text-align: center;
+        span {
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.projects {
+    border: solid;
+    border-color: $color-orange-dark-1;
+    background-image: linear-gradient(to bottom right, rgba($color-orange-light-1, .85), 
+            rgba($color-orange-light-2, .85)),
+        url('../../assets/projects-1.jpg');
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr min-content .8fr;
+    row-gap: 1rem;
+    justify-items: center;
+
+    opacity: 0;
+    animation: animateTile $animation-step-time ease-out .15s;
+
+    &--fade-out {
+        animation: animateTileOut $animation-step-time ease-out .15s;
+    }
+
+    @media only screen and (max-width: $bp-md-large) {
+        grid-row: 1/2;
+      }
+    // &:hover &__list {
+    //     opacity: 0;
+    // }
+
+    &:hover &__images {
+        &--3 {
+            bottom: 45%;
+        }
+
+        &--1 {
+            bottom: 40%;
+        }
+
+        &--2 {
+            bottom: 55%;
+        }
+    }
+
+    &__title {
+        align-self: flex-end;
+    }
+
+    &__list {
+        list-style: none;
+        width: fit-content;
+        padding: 0 5rem;
+        border-top: solid 1px $color-orange-dark-1;
+        text-align: center;
+        color: $color-grey-dark-1;
+        opacity: 1;
+        transition: opacity .2s;
+    }
+
+    &__images {
+        position: relative;
+        width: 100%;
+        img {
+            width: 60%;
+            position: absolute;
+
+            &:hover {
+                z-index: 10;
+            }
+        }
+
+        &:hover img:not(:hover) {
+            filter: grayscale(1);
+        }
+
+        &--1 {
+            right: 5%;
+            bottom: -10rem;
+            transition: bottom 0.6s cubic-bezier(0.25, 1, 0.5, 1) .2s, transform .2s, filter .4s;
+
+            &:hover {
+                transform: translateY(.5rem) scale(1.2);
+                transform-origin: right;
+            }
+        }
+
+        &--2 {
+            bottom: -8rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            transition: bottom 0.6s cubic-bezier(0.25, 1, 0.5, 1), transform .2s, filter .4s;
+
+            &:hover {
+                transform: translateX(-50%) scale(1.2);
+            }
+        }
+
+        &--3 {
+            left: 5%;
+            bottom: -10rem;
+            transition: bottom 0.6s cubic-bezier(0.25, 1, 0.5, 1) .1s, transform .2s, filter .4s;
+
+            &:hover {
+                transform-origin: left;
+                transform: translateY(1rem) scale(1.2);
+            }
+        }
+    }
+}

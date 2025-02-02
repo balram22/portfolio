@@ -1,0 +1,43 @@
+.App {
+    height: 100vh;
+    width: 100vw;
+  }
+
+.cursor {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: $color-grey-light-2;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  transition: transform .2s ease, background-color 0s ease, opacity .2s;
+
+  @media (hover: none) {
+    visibility: hidden;
+  }
+
+  &--big {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+
+  &--small {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+
+  &--none {
+    transform: translate(-50%, -50%) scale(0);
+    background-color: transparent;
+    opacity: 0;
+  }
+
+  &--color-white {
+    background-color: #fff;
+  }
+}
+
+.hr-devider {
+  width: 100%;
+  margin: 1rem 0;
+}

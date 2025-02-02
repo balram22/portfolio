@@ -1,0 +1,52 @@
+.btn {
+    border: 1px solid $color-grey-dark-1;
+    border-radius: 50%;
+    background: transparent;
+    padding: 1rem;
+    box-shadow: .4rem .4rem 0 rgba($color-grey-dark-1, .9);
+    transition: all .2s;
+
+    &:hover {
+        cursor: none;
+        box-shadow: none;
+        transform: translate(.4rem , .4rem);
+    }
+
+    img {
+        height: 2.5rem;
+    }
+}
+
+.back-btn-hidden {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem 1.5rem;
+    border-radius: $tile-border-radius 0;
+    visibility: hidden;
+    transition: background-color .2s;
+    cursor: none;
+
+    &:hover {
+        background-color: #fff;
+    }
+
+    @media (hover: none) {
+        visibility: visible;
+    }
+    
+    &--green {
+        color: $color-green-dark-2;
+    }
+
+    &--dark-pink {
+        color: $color-pink-dark;
+    }
+
+    svg {
+        width: 3rem;
+        height: 3rem;
+    }
+}

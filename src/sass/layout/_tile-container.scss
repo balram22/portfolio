@@ -1,0 +1,53 @@
+.tile-container {
+    height: 100%;
+    display: grid;
+    padding: 5vmax;
+    grid-template-columns: repeat(3 , minmax($min-tile-width, 1fr));
+    gap: 5vmax;
+
+    @media only screen and (max-width: $bp-md-large) {
+        grid-template-columns: repeat(2 , minmax($min-tile-width, 1fr));
+        grid-template-rows: 1fr 1fr;
+      }
+
+      @media only screen and (max-width: $bp-large) {
+        gap: 5vmin;
+      }
+
+    &--experience {
+        grid-template-columns: repeat(3 , minmax($min-tile-width, 1fr));
+    }
+}
+
+.tile {
+    border-radius: $tile-border-radius;
+    box-shadow: 0 1rem 3rem rgba(#000, .2);
+    display: flex;
+    transition: transform .2s ease, box-shadow .2s ease;
+    position: relative;
+    overflow: hidden;
+    grid-row: 1 / -1;
+    min-width: $min-tile-width;
+
+    :where(&:hover) {
+        transform: scale(1.02);
+    }
+
+    &:hover {
+        box-shadow: 0 2rem 4rem rgba(#000, .2);
+    }
+
+    @media (hover: none) {
+        :where(&:hover) {
+            transform: scale(1);
+        }
+    
+        &:hover {
+            box-shadow: 0 1rem 3rem rgba(#000, .2);
+        }
+    }
+
+    &--experience {
+        grid-column: 2/-1;
+    }
+}

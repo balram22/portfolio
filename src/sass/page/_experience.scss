@@ -1,0 +1,50 @@
+.experience {
+    border: solid;
+    border-color: $color-green-dark-1;
+    background-image: linear-gradient(to bottom right, rgba($color-green-light-1,.85), rgba($color-green-light-2,.85)),
+        url('../../assets/experience-1.jpg');
+    background-size: cover;
+    padding: 3rem;
+
+    display: grid;
+    grid-template-rows: 1fr .8fr min-content;
+    justify-items: center;
+
+    row-gap: 1rem;
+
+    opacity: 0;
+    animation: animateTile $animation-step-time ease-out .30s;
+
+    &--fade-out {
+        animation: animateTileOut $animation-step-time ease-out .30s;
+    }
+
+    @media only screen and (max-width: $bp-md-large) {
+        grid-row: 2/3;
+        grid-column: 2/3;
+      }
+
+    &__title {
+        align-self: flex-end;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__brief {
+        text-align: center;
+        color: $color-grey-dark-1;
+        border-top: solid 1px $color-green-dark-1;
+        margin: 0 4rem;
+    }
+
+    &__brands {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        align-items: end;
+
+        img{
+            height: 2.5rem;
+        }
+    }
+}
