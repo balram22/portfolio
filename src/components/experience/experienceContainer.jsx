@@ -239,13 +239,13 @@ const ExperienceContainer = (props) => {
                   }}
                   exit={{ opacity: 0 }}
                   className="details experience__summary">
-                  <b>CIQXL</b>
+                  <h4>CIQXL</h4>
                   <li>
                     Developed a microservice using Fast API to allow Capital IQ Excel Addin team to access more
                     granular data of tickers from Visible Alpha database. This will increase the supported lines by
                     200% for 2000+ tickers.
                   </li>
-                  <b>EXCEL ADDIN</b>
+                  <h4>EXCEL ADDIN</h4>
                   <li>
                     Enhanced the performance of the Datapoints API by 70% by caching frequent calls, improve data
                     fetcher logic, using multithreading, enabling the Excel Addin to load over 1 million
@@ -316,50 +316,40 @@ const ExperienceContainer = (props) => {
                     }
                   }}
                   exit={{ opacity: 0 }} className="details experience__summary">
+                    <h4>JOB SCHEDULER</h4>
                   <li>
-                    Designed and Developed a common Job Scheduler Client Application.
-                    <ul className="experience__summary--nested">
-                      <li>
-                        Led the team to build a general-purpose job scheduler that can
-                        monitor and schedule any type of job.
-                      </li>
-                      <li>
-                        5 internal projects save 2% revenue by switching to this Job
-                        Scheduler.
-                      </li>
-                      <li>Gain 3 new Enterprise Customers for this product.</li>
-                    </ul>
+                  Led the development of a versatile Job Scheduler Client Application, which increased
+                  revenue by 10% across 5 internal projects and attracted 3 new enterprise clients.
+                  </li>
+                  <h4>FILE COMPARISON TOOL</h4>
+                  <li>
+                  Enhanced performance of Document/File comparison tool by 80% by developing a better
+                  algorithm to compare text and virtual scrolling.
+                  </li>
+                  <h4>ASSET MANAGEMENT</h4>
+                  <li>
+                  Reduced the time to save large-size Assets in the application by 70% by automating the
+                  Asset creation and executing process
+                  </li>
+                  <h4>ROADS AND RAILS MANAGEMENT</h4>
+                  <li>Integrated Map based application with third-party products by developing backend-engine
+                  to import and export different GIS format files.
                   </li>
                   <li>
-                    Make data monitoring efficient by developing Analytics UI and APIs
-                    for multiple projects.
+                  Enhanced Map interaction by contributing to building logic to draw and manipulate vectors
+                  on Open Layers map.
                   </li>
                   <li>
-                    Improve performance of Document/File comparison tool by 80% by
-                    developing a better algorithm to compare text and virtual
-                    scrolling.
+                  Enhanced application security by migrating from .NET Framework to .NET Core and
+                  integrating OIDC authentication
                   </li>
+                  <h4>ASSET MANAGEMENT MOBILE APP</h4>
                   <li>
-                    Decrease the time to save large-size Assets in the application by
-                    70% by automating the Asset creation and executing process.
+                  Streamlined asset management by creating a mobile application (for Android and iOS) for
+                  asset creation and maintenance.
                   </li>
-                  <li>
-                    ntegrated Map based application with third-party products by
-                    developing backend-engine to import and export different GIS
-                    format files.
-                  </li>
-                  <li>
-                    Enhanced Map interaction by contributing to building logic to draw
-                    and manipulate vectors on Open Layers map.
-                  </li>
-                  <li>
-                    Make the application more secure by migrating it from .NET
-                    Framework to .NET Core and adding OIDC authentication.
-                  </li>
-                  <li>
-                    Streamline Asset management by developing a mobile application
-                    (Android and iOS) to create and maintain Assets.
-                  </li>
+                  <li>Enhanced data monitoring efficiency by developing an Analytics UI and APIs for multiple
+                  projects.</li>
                 </motion.ul>
               </motion.div>}
             </AnimatePresence>

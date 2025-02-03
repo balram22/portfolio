@@ -11,13 +11,15 @@ interface ProjectTileProps {
   animationDelay: number;
   close: boolean;
   id: number;
+  color?: string;
 }
 const ProjectTile = (props: ProjectTileProps) => {
-  const [color, _setColor] = useState<string>('');
+  const [color, _setColor] = useState<string>(props.project.color);
   const close2 = useRef<boolean>(false);
 
   useEffect(() => {
     listenAnimationEnd();
+    getImgColor(props.project.color);
   }, [])
 
   useEffect(() => {
@@ -25,10 +27,10 @@ const ProjectTile = (props: ProjectTileProps) => {
   }, [props.close])
 
   const getImgColor = (color: any) => {
-    _setColor(color[0]);
-    AddCursorColor(color[0]);
+    _setColor(color);
+    AddCursorColor(color);
     
-  CursorOnLink(props.id, color[0]);
+  CursorOnLink(props.id, color);
   }
 
   const listenAnimationEnd = () => {

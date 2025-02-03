@@ -47,7 +47,7 @@ const Introduction = (props: any) => {
             </p>
             <div className="intro__footer">
                 <div className="intro__contact">
-                    <div id='email' className="h4 intro__email" onClick={() => window.open('mailto:contact@balrams.site')}>contact@balrams.site</div>
+                    <div id='email' className="h4 intro__email" onClick={() => window.open('mailto:balramsc1995@gmail.com')}>balramsc1995@gmail.com</div>
                     <span>Available for freelance work</span>
                 </div>
                 <div className="intro__contact-icons">

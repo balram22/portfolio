@@ -8,6 +8,7 @@ import TrillioLogo from "../../assets/trillio.png";
 import Trillio from "../../assets/trillio.jpg";
 import { CursorOnBackBtn, removeCursor } from "../../service/eventListener";
 import { get_average_rgb } from "../../service/getImageAvgColor";
+import { color } from "motion/dist/react";
 
 const ProjectContainer = (props: any) => {
   const [close, _setClose] = useState<boolean>(false);
@@ -25,6 +26,7 @@ const ProjectContainer = (props: any) => {
       description:
         "Nexter is a luxury real estate company that provides high-end properties in the most sought after locations. They have been providing this service for several years now and they are still one of the best companies to work with when it comes to finding an apartment or house",
         link: "nexter/index.html",
+        color: '#c69962'
       },
     {
       logo: NatoursLogo,
@@ -32,6 +34,7 @@ const ProjectContainer = (props: any) => {
       description:
         "Natours is adventure booking site.  It is a very popular site for people who want to go on an adventure trip and plan it out with their friends or family members. The website helps you to find the best places in the world where you can go on adventures and enjoy yourself while doing so.",
       link: "natours/index.html",
+      color: '#64c485'
     },
     {
       logo: TrillioLogo,
@@ -39,6 +42,7 @@ const ProjectContainer = (props: any) => {
       description:
         "Trillio is a hotel booking site that helps you find and book the best hotels in your destination. We offer a wide range of accommodation options, from budget to luxury, across Europe. Our goal is to make it easier for you to book the perfect hotel at any given time.",
       link: "trillio/index.html",
+      color: '#ef3064'
     },
   ];
 

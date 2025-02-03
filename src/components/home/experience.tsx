@@ -46,7 +46,7 @@ const Experience = (props: any) => {
                 <h2 className='h2 h2--green'>Work experience</h2>
             </div>
             <p className="experience__brief h4">
-                4+ years of experience as a Web developer and Full Stack developer
+                6+ years of experience as a Web developer and Full Stack developer
             </p>
             <div className='experience__brands'>
                 <img src={bentleySystems} alt="Bentley Systems" />
