@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ad31a6bf.css",
+    "main.js": "/Portfolio/static/js/main.22be8936.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/projects-1.jpg": "/Portfolio/static/media/projects-1.56398fb99a0bb9b1f55a.jpg",
+    "static/media/experience-1.jpg": "/Portfolio/static/media/experience-1.d86c06ab290c58e55619.jpg",
+    "static/media/reactLogo.png": "/Portfolio/static/media/reactLogo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/trillio.jpg": "/Portfolio/static/media/trillio.d6cdea0b485657899a0c.jpg",
+    "static/media/cssLogo.png": "/Portfolio/static/media/cssLogo.4e67641bb68b658d9b2b.png",
+    "static/media/natours.jpg": "/Portfolio/static/media/natours.6c394a37957b98a53493.jpg",
+    "static/media/logo.png": "/Portfolio/static/media/logo.6a2107a7a04f9b59f838.png",
+    "static/media/nexter.jpg": "/Portfolio/static/media/nexter.a44d9531c8825277c85d.jpg",
+    "static/media/logo-green-small-2x.png": "/Portfolio/static/media/logo-green-small-2x.de221e6e59f7f455c7bf.png",
+    "static/media/blazorLogo.png": "/Portfolio/static/media/blazorLogo.9f6c714a50187f38afc1.png",
+    "static/media/typescriptLogo.png": "/Portfolio/static/media/typescriptLogo.afcdb36e8c18284b47d8.png",
+    "static/media/snp.svg": "/Portfolio/static/media/snp.93ce368c824ba2709e74a5dbc34140ac.svg",
+    "static/media/sqlLogo.png": "/Portfolio/static/media/sqlLogo.458cce67747ea643302d.png",
+    "static/media/SnP-Global.svg": "/Portfolio/static/media/SnP-Global.d2272b5a6d432fc3b94d1c617c1e100f.svg",
+    "static/media/netCoreLogo.svg": "/Portfolio/static/media/netCoreLogo.97f78a4850d6a3bc4e99f4603d84643d.svg",
+    "static/media/Bentley-Systems.svg": "/Portfolio/static/media/Bentley-Systems.be35abe1d1cb16f47f652cc0e9e8e162.svg",
+    "static/media/Bentley-systems-green.svg": "/Portfolio/static/media/Bentley-systems-green.cefa3f005d3801fb8ab9aaaee78d7722.svg",
+    "static/media/icons-python.svg": "/Portfolio/static/media/icons-python.026a62687ef705a39cfc755d7457859c.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.26e9f3a87cb9a591972e8d1325e893e7.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.ad31a6bf.css.map": "/Portfolio/static/css/main.ad31a6bf.css.map",
+    "main.22be8936.js.map": "/Portfolio/static/js/main.22be8936.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad31a6bf.css",
+    "static/js/main.22be8936.js"
+  ]
+}
