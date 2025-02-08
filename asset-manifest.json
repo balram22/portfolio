@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d5d547ab.css",
-    "main.js": "/portfolio/static/js/main.22941cc1.js",
+    "main.js": "/portfolio/static/js/main.cec1c5ae.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/projects-1.jpg": "/portfolio/static/media/projects-1.56398fb99a0bb9b1f55a.jpg",
     "static/media/experience-1.jpg": "/portfolio/static/media/experience-1.d86c06ab290c58e55619.jpg",
@@ -14,21 +14,21 @@
     "static/media/logo-green-small-2x.png": "/portfolio/static/media/logo-green-small-2x.de221e6e59f7f455c7bf.png",
     "static/media/blazorLogo.png": "/portfolio/static/media/blazorLogo.9f6c714a50187f38afc1.png",
     "static/media/typescriptLogo.png": "/portfolio/static/media/typescriptLogo.afcdb36e8c18284b47d8.png",
-    "static/media/snp.svg": "/portfolio/static/media/snp.93ce368c824ba2709e74a5dbc34140ac.svg",
     "static/media/sqlLogo.png": "/portfolio/static/media/sqlLogo.458cce67747ea643302d.png",
-    "static/media/SnP-Global.svg": "/portfolio/static/media/SnP-Global.d2272b5a6d432fc3b94d1c617c1e100f.svg",
+    "static/media/snp.svg": "/portfolio/static/media/snp.20c1bdf40417bdfb46b1a44377ac71a3.svg",
+    "static/media/SnP-Global.svg": "/portfolio/static/media/SnP-Global.ae281adf6f7976a9a58f9b17c28e0143.svg",
     "static/media/netCoreLogo.svg": "/portfolio/static/media/netCoreLogo.97f78a4850d6a3bc4e99f4603d84643d.svg",
     "static/media/Bentley-Systems.svg": "/portfolio/static/media/Bentley-Systems.be35abe1d1cb16f47f652cc0e9e8e162.svg",
-    "static/media/Bentley-systems-green.svg": "/portfolio/static/media/Bentley-systems-green.cefa3f005d3801fb8ab9aaaee78d7722.svg",
+    "static/media/Bentley-systems-green.svg": "/portfolio/static/media/Bentley-systems-green.79d1f4750091882edfae0745dbc40586.svg",
     "static/media/icons-python.svg": "/portfolio/static/media/icons-python.026a62687ef705a39cfc755d7457859c.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.26e9f3a87cb9a591972e8d1325e893e7.svg",
     "index.html": "/portfolio/index.html",
     "main.d5d547ab.css.map": "/portfolio/static/css/main.d5d547ab.css.map",
-    "main.22941cc1.js.map": "/portfolio/static/js/main.22941cc1.js.map",
+    "main.cec1c5ae.js.map": "/portfolio/static/js/main.cec1c5ae.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5d547ab.css",
-    "static/js/main.22941cc1.js"
+    "static/js/main.cec1c5ae.js"
   ]
 }
