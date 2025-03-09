@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7a6484b.css",
-    "main.js": "/static/js/main.92d4cd05.js",
+    "main.css": "/static/css/main.266bca23.css",
+    "main.js": "/static/js/main.9e463df8.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/projects-1.jpg": "/static/media/projects-1.56398fb99a0bb9b1f55a.jpg",
     "static/media/experience-1.jpg": "/static/media/experience-1.d86c06ab290c58e55619.jpg",
@@ -14,21 +14,21 @@
     "static/media/logo-green-small-2x.png": "/static/media/logo-green-small-2x.de221e6e59f7f455c7bf.png",
     "static/media/blazorLogo.png": "/static/media/blazorLogo.9f6c714a50187f38afc1.png",
     "static/media/typescriptLogo.png": "/static/media/typescriptLogo.afcdb36e8c18284b47d8.png",
+    "static/media/snp.svg": "/static/media/snp.93ce368c824ba2709e74a5dbc34140ac.svg",
     "static/media/sqlLogo.png": "/static/media/sqlLogo.458cce67747ea643302d.png",
-    "static/media/snp.svg": "/static/media/snp.20c1bdf40417bdfb46b1a44377ac71a3.svg",
-    "static/media/SnP-Global.svg": "/static/media/SnP-Global.ae281adf6f7976a9a58f9b17c28e0143.svg",
+    "static/media/SnP-Global.svg": "/static/media/SnP-Global.d2272b5a6d432fc3b94d1c617c1e100f.svg",
     "static/media/netCoreLogo.svg": "/static/media/netCoreLogo.97f78a4850d6a3bc4e99f4603d84643d.svg",
     "static/media/Bentley-Systems.svg": "/static/media/Bentley-Systems.be35abe1d1cb16f47f652cc0e9e8e162.svg",
-    "static/media/Bentley-systems-green.svg": "/static/media/Bentley-systems-green.79d1f4750091882edfae0745dbc40586.svg",
+    "static/media/Bentley-systems-green.svg": "/static/media/Bentley-systems-green.cefa3f005d3801fb8ab9aaaee78d7722.svg",
     "static/media/icons-python.svg": "/static/media/icons-python.026a62687ef705a39cfc755d7457859c.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.26e9f3a87cb9a591972e8d1325e893e7.svg",
     "index.html": "/index.html",
-    "main.e7a6484b.css.map": "/static/css/main.e7a6484b.css.map",
-    "main.92d4cd05.js.map": "/static/js/main.92d4cd05.js.map",
+    "main.266bca23.css.map": "/static/css/main.266bca23.css.map",
+    "main.9e463df8.js.map": "/static/js/main.9e463df8.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7a6484b.css",
-    "static/js/main.92d4cd05.js"
+    "static/css/main.266bca23.css",
+    "static/js/main.9e463df8.js"
   ]
 }
