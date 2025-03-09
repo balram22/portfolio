@@ -221,19 +221,14 @@ const ExperienceContainer = (props) => {
                 initial={{ height: 0 }}
                 animate={{ height: 'auto' }}
                 exit={{
-                  height: 0, transition: {
-                    height: {
-                      delay: 0.1
-                    }
-                  }
+                  height: 0
                 }}
                 className="experience__summary__container">
                 <motion.ul
-                  initial={{ translateY: -10, opacity: 0 }}
+                  initial={{ translateY: -10, opacity: 1 }}
                   animate={{
                     translateY: 0, opacity: 1,
                     transition: {
-                      opacity: { delay: 0.15 },
                       translateY: { ease: 'easeIn', duration: 0.1 }
                     }
                   }}
@@ -299,19 +294,14 @@ const ExperienceContainer = (props) => {
                 initial={{ height: 0 }}
                 animate={{ height: 'auto' }}
                 exit={{
-                  height: 0, transition: {
-                    height: {
-                      delay: 0.1,
-                      ease: 'easeInOut'
-                    }
-                  }
+                  height: 0
                 }}
                 className="experience__summary__container">
-                <motion.ul initial={{ translateY: -10, opacity: 0 }}
+                <motion.ul                   
+                  initial={{ translateY: -10, opacity: 1 }}
                   animate={{
                     translateY: 0, opacity: 1,
                     transition: {
-                      opacity: { delay: 0.15 },
                       translateY: { ease: 'easeIn', duration: 0.1 }
                     }
                   }}
